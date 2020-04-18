@@ -1,0 +1,73 @@
+#block-block-11 {
+  padding-bottom: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+#block-block-12 {
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+#block-block-33 {
+  padding-bottom: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+#block-block-34 {
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+#block-block-35 {
+  padding-bottom: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+#block-block-36 {
+  margin: 10px auto;
+  max-width: 800px;
+}
+#block-block-42 {
+clear:both;
+}
+
+.amazon-ad-code {
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+
+  @include breakpoint($full, true) {
+    display: none;
+  }
+
+  p {
+    margin: 20px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+//amazon products
+.page-node-1024 {
+  .field--name-body {
+    text-align: center;
+    @include breakpoint(600px, true) {
+      text-align: left;
+    }
+    a {
+      display: block;
+      padding: 15px;
+      border:1px solid $color-1;
+      margin: 10px;
+      @include breakpoint(600px, true) {
+        display: inline-block;
+      }
+
+      &:hover {
+        border: 1px solid #000;
+      }
+    }
+  }
+}

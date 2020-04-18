@@ -1,0 +1,54 @@
+
+
+.search-bar {
+  padding:10px 0;
+  clear: both;
+  width: 95%;
+  margin: 0 auto;
+
+}
+input#edit-search-block-form--2 {
+  width: 63%;
+  padding: 10px;
+  border: 1px solid $color-1;
+  @include breakpoint (400px, true) {
+    width: 64%;
+  }
+}
+
+input[type="submit"] {
+    background: #fff;
+    border: 1px solid $color-1;
+    color: $color-1;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 35%;
+    @include breakpoint(900px, true) {
+      width: 35.5%;
+    }
+
+    &:hover {
+      background: #000;
+      color: #fff;
+    }
+}
+
+html.js .form-autocomplete {
+    background-image: none;
+  //background-position: 100% 25px;
+  background-repeat: no-repeat;
+}
+.ui-theme-basic-green.ui-autocomplete-input {
+  background-image: none;
+  //background-position: 100% 25px;
+  background-repeat: no-repeat;
+}
+.ui-theme-basic-green.ui-autocomplete-loading {
+  background-image: none;
+  //background-position: 100% -10px;
+  background-repeat: no-repeat;
+}
+.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
+  z-index: 9999;
+}

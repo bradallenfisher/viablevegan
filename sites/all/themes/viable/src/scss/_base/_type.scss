@@ -1,0 +1,21 @@
+h1 {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 1.6em;
+    margin: 0;
+    padding:20px 0;
+}
+.color-1 {
+  color: $color-1;
+}
+p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+p.small {
+  font-size: .8rem !important;
+  font-style: italic;
+}

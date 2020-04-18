@@ -1,0 +1,20 @@
+{
+  "name": "kelly",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "BRAD A FISHER JR <baf139@psu.edu>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "compass-mixins": "^1.0.2"
+  }
+}

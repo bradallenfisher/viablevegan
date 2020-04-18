@@ -1,0 +1,22 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+form {
+  img {
+    height: 0;
+  }
+}
+ul, li, ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+a {
+  text-decoration: none;
+  color: $color-1;
+}
+.menu .leaf {
+    list-style-image: none;
+    list-style-type: none;
+}
